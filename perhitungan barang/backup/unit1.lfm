@@ -1,0 +1,151 @@
+object Form1: TForm1
+  Left = 990
+  Height = 517
+  Top = 114
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 517
+  ClientWidth = 320
+  LCLVersion = '2.2.6.0'
+  object Label1: TLabel
+    Left = 80
+    Height = 15
+    Top = 32
+    Width = 160
+    Caption = 'perhitungan penjualan barang'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 40
+    Height = 15
+    Top = 72
+    Width = 66
+    Caption = 'kode barang'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 40
+    Height = 15
+    Top = 113
+    Width = 44
+    Caption = 'quantity'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 40
+    Height = 15
+    Top = 152
+    Width = 70
+    Caption = 'nama barang'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 40
+    Height = 15
+    Top = 186
+    Width = 68
+    Caption = 'harga satuan'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 40
+    Height = 15
+    Top = 224
+    Width = 46
+    Caption = 'sub total'
+    ParentColor = False
+  end
+  object Label7: TLabel
+    Left = 40
+    Height = 15
+    Top = 265
+    Width = 35
+    Caption = 'diskon'
+    ParentColor = False
+  end
+  object Label8: TLabel
+    Left = 40
+    Height = 15
+    Top = 304
+    Width = 56
+    Caption = 'total bayar'
+    ParentColor = False
+  end
+  object cbKode: TComboBox
+    Left = 128
+    Height = 23
+    Top = 72
+    Width = 112
+    ItemHeight = 15
+    TabOrder = 0
+  end
+  object edtQuantity: TEdit
+    Left = 128
+    Height = 23
+    Top = 113
+    Width = 112
+    TabOrder = 1
+  end
+  object edtNamaBrang: TEdit
+    Left = 128
+    Height = 23
+    Top = 152
+    Width = 112
+    TabOrder = 2
+  end
+  object edtHargaSatuan: TEdit
+    Left = 128
+    Height = 23
+    Top = 186
+    Width = 112
+    TabOrder = 3
+  end
+  object edtSubTotal: TEdit
+    Left = 128
+    Height = 23
+    Top = 224
+    Width = 112
+    TabOrder = 4
+  end
+  object edtDiskon: TEdit
+    Left = 128
+    Height = 23
+    Top = 265
+    Width = 112
+    TabOrder = 5
+  end
+  object edtTotalBayar: TEdit
+    Left = 128
+    Height = 23
+    Top = 304
+    Width = 112
+    TabOrder = 6
+  end
+  object btnHitung: TButton
+    Left = 24
+    Height = 25
+    Top = 368
+    Width = 75
+    Caption = 'hitung'
+    OnClick = btnHitungClick
+    TabOrder = 7
+  end
+  object btnClear: TButton
+    Left = 128
+    Height = 25
+    Top = 368
+    Width = 75
+    Caption = 'clear'
+    OnClick = btnClearClick
+    TabOrder = 8
+  end
+  object btnClose: TButton
+    Left = 224
+    Height = 25
+    Top = 368
+    Width = 75
+    Caption = 'close'
+    OnClick = btnCloseClick
+    TabOrder = 9
+  end
+end
